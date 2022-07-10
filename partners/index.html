@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../style.css">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <title>Safu Locker</title>
+    </head>
+    <nav>
+        <div class="logo">
+            <a href="../"><img src="../img/SafuLock.svg" alt="logo" ></a>
+            <div class="logo-title">
+                <p>Safu Lock</p>
+                <p>DeFi on <span>Binance Smart Chain</span></p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#"><img src="../img/pancakeswapLogo.svg"> Buy $KEY</a></li>
+            <li><a href="../">Home</a></li>
+            <li><a href="../new-lock">New Lock</a></li>
+            <li><a href="https://safu-lock.com/">Exit dApp</a></li>
+            <li><a href="#" class="connectBtn"><img src="../img/connectWallet.svg"> Connect</a></li>
+        </ul>
+    </nav>
+    <div class="navMobile">
+        <a href="../" class = "mobileLogo"><img src="../img/SafuLock.svg" alt="logo">Safu DeFi</a>
+        <div class="navMobileBtn">
+            <p>Menu</p>
+            <i class="far fa-caret-square-down"></i>
+        </div>
+        <ul>
+            <li><a href="#"><img src="../img/pancakeswapLogo.svg"> Buy $KEY</a></li>
+            <li><a href="../">Home</a></li>
+            <li><a href="../new-lock">New Lock</a></li>
+            <li><a href="https://safu-lock.com/">Exit dApp</a></li>
+            <li><a href="#" class="connectBtnMobile"><img src="../img/connectWallet.svg"> Connect</a></li>
+        </ul>
+    </div>
+<body>
+    <div id="particles-js"></div>
+    <div class="loadingLock">
+        <img src="../img/loadView.svg">
+    </div>
+    <section class="newLockPage" style = "display: none;">
+        <h1>Partners lock</h1>
+        <div class="nl-fees">
+            <h4>Fees</h4>
+            <p><span><span>0.1%</span> of locked tokens</span> + <span><span>0</span> BNB</span></p>
+        </div>
+        <input type="text" class="input-class" id="nl-address" placeholder="Token or LP contract address" autocomplete="off">
+        <button class="cta" id="nl-search">Search</button>
+        <div class="nl-tokenInfo">
+            <div class="nl-symbol nl-hide">
+                <img src="../img/binanceLogo.svg">
+                <p id="nl-symbol">Symbol</p>
+                <p id="nl-balance">0</p>
+            </div>
+        </div>
+        <input type="number" class="input-class nl-hide" id="nl-amount" placeholder="Amount" autocomplete="off">
+        <input type="date" class="input-class nl-hide" id="nl-date" placeholder="Unlock Date" autocomplete="off">
+        <button class="cta nl-hide" id="nl-approve">Approve</button>
+        <button class="cta nl-hide" id="nl-send">Create Lock</button>
+        <p id="nl-success"></p>
+        <div class="nl-notification">
+            <div>
+                <h4><i class="fas fa-exclamation-triangle"></i>Please connect your wallet</h4>
+            </div>
+            <p>Please make sure your wallet is connected and you are using Binance Smart Chain network. <br><br>
+            For assistance, please <a href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain" target="_blank">follow this guide from Binance.com</a>.</p>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="f-left">
+        <h3>DeFi on Binance Smart Chain</h3>
+        <h5>Your crypto is Safu</h5>
+        <h5><i class="fas fa-envelope"></i>contact@safu-lock.com</h5>
+    </div>
+    <div class="f-middle">
+        <h3>Fees <br> <span><span>0.1%</span> of locked tokens</span> + <span><span>0</span> BNB</span></h3>
+    </div>
+    <div class="f-right">
+        <h3>Reach us</h3>
+        <ul>
+            <li><a href="https://twitter.com/safulock" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://t.me/safulock" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a href="https://github.com/safulock/contracts" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.4.0/web3.min.js" integrity="sha512-VHTLMyjZ8NOooiTNlMoDFwI5oAkH6NbggI1MSabsysAZs0EAJjRoULS878AMQ79FZtFa8SQiR4emQc/SwXBgng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="../particles.js"></script>
+<script src="app.js"></script>
+</html>
