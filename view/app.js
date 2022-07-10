@@ -144,7 +144,7 @@ async function getTokenInfo(id, address, owner, amount, timestamp, withdraw) {
     </div>
     <div class="vbuttons">
     <ul>
-    <li><a href="https://bscscan.com/address/${owner}" target="_blank" id="vowner">Owner</a></li>
+    <li><a href="https://testnet.bscscan.com/address/${owner}" target="_blank" id="vowner">Owner</a></li>
     <li><a href="#" id="vwth">Withdraw Funds</a></li>
     <li><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Flocker.safu-lock.com%2Fview%2F%3Flockid%3D${id}&text=There%20are%20${tokenAmount}%20${symbol}%20tokens%20locked%20in%20%40safulock%20smart%20contract%20until%20${date}.%20Check%20it%20here%3A%20" target="_blank" id="vtoken"><i class="fab fa-twitter"></i> Share</a></li>
     </ul>
@@ -167,7 +167,7 @@ async function getTokenInfo(id, address, owner, amount, timestamp, withdraw) {
                 const newTx = document.createElement("p");
                 newTx.setAttribute("class", "vtxh");
                 newTx.innerHTML = `
-                <span>Tx Hash </span><a href="https://bscscan.com/tx/${hash}">${hash}</a><i class="fas fa-external-link-alt"></i>
+                <span>Tx Hash </span><a href="https://testnet.bscscan.com/tx/${hash}">${hash}</a><i class="fas fa-external-link-alt"></i>
                 `;
                 viewLockPage.appendChild(newTx);
             })
