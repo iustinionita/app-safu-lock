@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    particlesJS.load('particles-js', '../particlesjs-config.json', function() {});
+    particlesJS.load('particles-js', './particlesjs-config.json', function() {});
     
     setTimeout(()=> {
         $(".loadingHome").remove();
@@ -81,7 +81,7 @@ async function symbolDecimals(address) {
     locksByAddress(address, decimals, symbol);
 
     if (name == "Pancake LPs") {
-        $(".symbol img").attr("src", "/img/cake.svg");
+        $(".symbol img").attr("src", "./img/cake.svg");
     } else {
         tokenLogo(address);
     }
@@ -96,7 +96,7 @@ function tokenLogo(address) {
             if(url.status == '200') {
                 $(".symbol img").attr("src", url.url);
             } else if (url.status == '404') {
-                $(".symbol img").attr("src", "/img/binanceLogo.svg"); 
+                $(".symbol img").attr("src", "./img/binanceLogo.svg"); 
             }
         });
 }
