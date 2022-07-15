@@ -10,16 +10,11 @@ Probably the easiest way to lock your crypto tokens for a chosen period of time.
 
 ### How does it work?
 
-`Home page` - If you are looking for the locks for a specific Bep-20 token, insert the contract address of that token into the search field and click the "Search" button. If there are any locks for that token, results will be displayed at the bottom of the page. 
+`Home page` - If you are looking for the locks for a specific Bep-20 token, insert the contract address of that token into the search field and click the "Search" button. If there are any locks for that token, results will be displayed at the bottom of the page.
 
-`View page` - This page is not shown in the Navigation bar as this page is only used to display informations about a specific lock selected from your search results (if any).
-If you are the owner of that lock and the locking time expired, you can claim back your tokens by clicking "Withdraw Funds".
+`View page` - This page is not shown in the Navigation bar, as this page is only used to display information about a specific lock selected from your search results (if any). If you are the owner of that lock and the locking time expired, you can claim back your tokens by clicking "Withdraw Funds".
 
-`New lock` - Here you can lock your Bep-20 tokens for the desired period of time.
-First, search for the contract address of your tokens. If the contract is found, the token name and your ballance is shown in the results section. Then type how many tokens you wish to lock and select the lock expiry date. 
-If you are ready, click the "Approve" button and confirm the transaction in your MetaMask - this transaction is free of charge.
-After the transactions will be successfully approved you should see a new button "Create Lock". Click on it and approve the transaction in your MetaMask - this transaction will cost you 0.1 BNB for the Smart Contract fee + any Network fees.
-If the transaction is successfull, please share it on Twitter :) .
+`New lock` - Here you can lock your Bep-20 tokens for the desired period of time. First, search for the contract address of your tokens. If the contract is found, the token name and your balance is shown in the results section. Then type how many tokens you wish to lock and select the lock expiry date. If you are ready, click the "Approve" button and confirm the transaction in your MetaMask - this transaction is free of charge. After the transactions will be successfully approved you should see a new button "Create Lock". Click on it and approve the transaction in your MetaMask - this transaction will cost you 0.1 BNB for the Smart Contract fee + any Network fees. If the transaction is successful, please share it on Twitter :) .
 
 Now you should be able to see your lock in the search results from the Home page.
 
