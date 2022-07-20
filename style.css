@@ -1035,6 +1035,9 @@ body .newLockPage .nl-notification div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1046,20 +1049,24 @@ body .newLockPage .nl-notification div h4 {
   color: #815f04;
 }
 
-body .newLockPage .nl-notification div h4 i {
-  color: #f2a900;
-  margin-right: 10px;
-  font-size: 1.2rem;
-}
-
 body .newLockPage .nl-notification p {
   color: #815f04;
   font-family: 'Roboto', sans-serif;
 }
 
-body .newLockPage .nl-notification p a {
-  color: #f2a900;
-  font-family: 'Roboto', sans-serif;
+body .newLockPage .nl-notification #changeNetwork {
+  background-color: #f2a900;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  padding: 7px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body .newLockPage .nl-notification #changeNetwork:hover {
+  background-color: orange;
+  cursor: pointer;
 }
 
 body .newLockPage #nl-success a {

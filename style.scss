@@ -765,24 +765,28 @@ body {
       z-index: 0;
       div {
         display: flex;
+        justify-content: center;
         align-items: center;
         margin-bottom: 10px;
         h4 {
           font-family: 'Roboto', sans-serif;
           color: #815f04;
-          i {
-            color: $corange;
-            margin-right: 10px;
-            font-size: 1.2rem;
-          }
         }
       }
       p {
         color: #815f04;
         font-family: 'Roboto', sans-serif;
-        a {
-          color: $corange;
-          font-family: 'Roboto', sans-serif;
+      }
+      #changeNetwork {
+        background-color: $corange;
+        border: 0;
+        border-radius: 3px;
+        color: white;
+        padding: 7px;
+        transition: all .3s ease;
+        &:hover {
+          background-color: orange;
+          cursor: pointer;
         }
       }
     }
