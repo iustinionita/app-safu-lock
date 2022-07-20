@@ -17,9 +17,9 @@ Probably the easiest way to lock your crypto tokens for a chosen period of time.
 
 Click on your **Profile Picture** > **Import Account**. Make sure you import the **Private Key**!
 
-Private Key: 96500e6540837bcff174fd383ff5e7ca0aa2d0ee07685edb9fa91f65b12a6049
+Private Key: **96500e6540837bcff174fd383ff5e7ca0aa2d0ee07685edb9fa91f65b12a6049**
 
-> Note: If it's the first time you install MetaMask you have to setup your account first and then you can import my wallet*
+> Note: If it's the first time you install MetaMask you have to setup your account first and then you can import my wallet
 
 ------------
 
