@@ -8,6 +8,22 @@ Probably the easiest way to lock your crypto tokens for a chosen period of time.
 - Your wallet should have at least 0.2 BNB to pay for the Smart Contract and Network fees
 - Any BEP-20 token in your wallet
 
+------------
+
+
+##### MetaMask TEST WALLET
+
+**Please add this wallet to your MetaMask to test my project!**
+
+Click on your **Profile Picture** > **Import Account**. Make sure you import the **Private Key**!
+
+Private Key: 96500e6540837bcff174fd383ff5e7ca0aa2d0ee07685edb9fa91f65b12a6049
+
+> Note: If it's the first time you install MetaMask you have to setup your account first and then you can import my wallet*
+
+------------
+
+
 ### How does it work?
 
 `Home page` - If you are looking for the locks for a specific Bep-20 token, insert the contract address of that token into the search field and click the "Search" button. If there are any locks for that token, results will be displayed at the bottom of the page.
