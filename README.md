@@ -33,7 +33,7 @@ Private Key: **96500e6540837bcff174fd383ff5e7ca0aa2d0ee07685edb9fa91f65b12a6049*
 `New lock` - Here you can lock your Bep-20 tokens for the desired period of time. First, search for the contract address of your tokens. If the contract is found, the token name and your balance is shown in the results section. Then type how many tokens you wish to lock and select the lock expiry date. If you are ready, click the "Approve" button and confirm the transaction in your MetaMask - this transaction is free of charge. After the transactions will be successfully approved you should see a new button "Create Lock". Click on it and approve the transaction in your MetaMask - this transaction will cost you 0.1 BNB for the Smart Contract fee + any Network fees. If the transaction is successful, please share it on Twitter :) .
 
 > **This is the BUSD token contract address. You can use it to test my app!**
-*BUSD Contract* `0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee` 
+`0xeD24FC36d5Ee211Ea25A80239Fb8C4Cfd80f12Ee` 
 
 Now you should be able to see your lock in the search results from the Home page.
 
